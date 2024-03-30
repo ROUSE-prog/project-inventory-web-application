@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Manga Inventory</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="burger-icon">☰</div>
+        <div class="icons-menu">
+            <div class="icon" id="show-form">Add Manga</div>
+            <div class="icon">Profile</div>
+            <div class="icon">Friends</div>
+            <div class="icon">Discover</div>
+            <div class="icon">Settings</div>
+            
+            <form id="add-manga-form" class="form-hidden">
+                    <h2>New Collection</h2>
+                    <input type="text" id="name" placeholder="Title">
+                    <input type="text" id="author" placeholder="Author">
+                    <input type="text" id="volume" placeholder="Volume">
+                    <input type="text" id="genre" placeholder="Genre">
+                    <input type="text" id="image-url" placeholder="I.URL">
+                    <input type="checkbox" id="in-stock" checked> In Stock
+                    <button type="submit">Add Manga</button>
+                    <button type="reset">Reset</button>
+                </form>
+        </div>
+        <h1>Manga Square</h1>
+    </header>
+    <div class="container">
+        <div class="content">
+            <div class="books">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
