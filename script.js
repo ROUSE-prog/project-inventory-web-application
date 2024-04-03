@@ -22,7 +22,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
   showFormIcon.addEventListener('click', () => {
-    // Toggle form visibility
     if (form.classList.contains('form-hidden')) {
         form.classList.remove('form-hidden');
         form.classList.add('form-visible');
