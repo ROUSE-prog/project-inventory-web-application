@@ -1,16 +1,16 @@
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
-  background-color: #f0f0f0;
-  background: linear-gradient(0deg, #659394, white, #659394);
+  background: rgb(190, 191, 193);
   background-size: 100% 300%;
-  animation: gradientFlow 10s infinite linear;
+  animation: gradientFlow 20s infinite linear;
 }
 
 .container {
   max-width: 950px;
   margin: auto;
   background: #5c5b5b15;
+  color:#ddd;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -100,7 +100,7 @@ form {
 
 form h2 {
   margin-top: 0;
-  color: #dfdede;
+  color: #000000;
   font-size: 24px;
   margin-bottom: 20px;
 }
@@ -112,7 +112,7 @@ input[type="text"] {
   border-radius: 5px;
   box-sizing: border-box;
   outline: none;
-  border-color: #317668;
+  border-color: #ffffff;
   background-color: rgba(255, 255, 255, 0.248); 
 }
 .stock-label {
@@ -148,8 +148,8 @@ form input:focus {
 }
 
 button[type="submit"]:hover {
-  background-color: #4CAF50; /* Green color for hover state */
-  color: white; /* Adjust text color as needed for contrast */
+  background-color: #4CAF50; 
+  color: white; 
 }
 button:hover {
 
@@ -159,9 +159,9 @@ button:hover {
 .books {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Center the books horizontally */
-  align-items: flex-start; /* Align items from the start vertically */
-  gap: 20px; /* Adds space between books */
+  justify-content: center;
+  align-items: flex-start; 
+  gap: 20px;
 }
 
 .book {
@@ -250,17 +250,7 @@ button:hover {
     border: 3px solid #f0f0f0;
 }
 
-@keyframes gradientFlow {
-  0% {
-      background-position: 0% 0%;
-  }
-  50% {
-      background-position: 0% 0%;
-  }
-  100% {
-      background-position: 0% 100%;
-  }
-}
+
 
 @font-face {
   font-family: 'MyCustomFont';
